@@ -53,7 +53,7 @@ static class Student{
 
             for(int i=0;i<n;i++){
             
-                
+                stu[i] = new Student();
                 stu[i].readDetails();
                 stu[i].readMarks();
                 Avg[i] = stu[i].getAvg();
